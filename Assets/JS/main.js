@@ -3,7 +3,7 @@ console.log("JavaScript loaded");
 let input = document.querySelector("#phone");
 
 
-window.intlTelInput(input,{});
+
 
 
  var swiper = new Swiper('.mySwiper', {
@@ -20,4 +20,4 @@ window.intlTelInput(input,{});
         },
       });
 
-    
+    window.intlTelInput(input,{});
